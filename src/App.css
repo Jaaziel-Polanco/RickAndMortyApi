@@ -1,0 +1,83 @@
+@font-face {
+  font-family: rick;
+  src: url(./assets/get_schwifty.ttf);
+}
+.myName {
+  font-size: 1.2rem;
+  color: #12b0c9;
+  -webkit-text-stroke: 0.3px black;
+  text-decoration: none;
+}
+
+.nav1 {
+  display: flex;
+  justify-content: space-between;
+  font-family: rick;
+  border-bottom-left-radius: 35px;
+  border-bottom-right-radius: 35px;
+  margin-bottom: 50px;
+  padding: 17px;
+  background: rgb(5,59,148);
+  background: linear-gradient(90deg, rgba(5,59,148,1) 5%, rgba(0,0,0,1) 100%);
+}
+.nav2{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.col{
+  margin-bottom: 40px;
+}
+.title {
+  font-size: 3rem;
+  color: #12b0c9;
+  -webkit-text-stroke: 1.8px black;
+  text-decoration: none;
+}
+.card {
+  border: 2px solid white ;
+  min-width: 200px;
+}
+.card-body {
+  background-color: #242424;
+  color: aliceblue;
+}
+
+.page-link{
+  font-family: rick;
+  color: #242424;
+  transition: 300ms;
+}
+
+.page-link:hover{
+  padding-left: 30px;
+  color: #12b0c9;
+  -webkit-text-stroke: 0.2px white;
+  background: rgb(5,59,148);
+  background: linear-gradient(90deg, rgba(5,59,148,1) 5%, rgba(0,0,0,1) 100%);
+}
+
+/*animations*/
+
+.fade-appear {
+  opacity: 0;
+}
+
+.fade-appear-active {
+  opacity: 1;
+  transition: opacity 1000ms;
+}
+
+.slide-appear {
+  transform: translateY(100%);
+  opacity: 0;
+}
+
+.slide-appear-active {
+  transform: translateY(0);
+  opacity: 1;
+  transition: transform 800ms ease, opacity 800ms ease;
+}
+
+
+
